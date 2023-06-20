@@ -3,7 +3,6 @@
  * main - prints the first 98 fibonaci sequences
  * Return: 0
  */
-
 int main(void)
 {
 	int i = 0;
@@ -15,9 +14,9 @@ int main(void)
 		a = b;
 		b = next;
 		printf("%lu", next);
-
+	
 		if (i < 97)
-			printf(",");
+			printf(", ");
 		i++;
 	}
 	putchar('\n');
